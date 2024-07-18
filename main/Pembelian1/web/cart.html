@@ -14,7 +14,6 @@
     </style>
 </head>
 <body class="">
-
     <div class="container">
         <header>
             <div class="header-container">
@@ -83,22 +82,22 @@
               
                <label for="name">
                    <span>Name</span>
-                   <input type="text" name="name" id="name">
+                   <input type="text" name="name" id="name" required>
                </label>
 
                <label for="email">
                    <span>Email</span>
-                   <input type="email" name="email" id="email">
+                   <input type="email" name="email" id="email" required>
                </label>
 
                <label for="phone">
                    <span>Phone</span>
-                   <input type="number" name="phone" id="phone" autocomplete="off">
+                   <input type="number" name="phone" id="phone" autocomplete="off" required>
                </label>
 
                <label for="address">
                    <span>Address</span>
-                   <input type="text" name="address" id="address" autocomplete="off">
+                   <input type="text" name="address" id="address" autocomplete="off" required>
                </label>
            </form>
        </div>
@@ -109,10 +108,9 @@
 
        <div class="btn">
            <button class="close">CLOSE</button>
-           <button class="checkOut">Check Out</button>
+           <button class="checkOut" disabled>Check Out</button>
        </div>
     </div>
-
             
     <footer>
         <div class="socials">
