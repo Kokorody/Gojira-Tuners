@@ -1,4 +1,4 @@
-![Screenshot 2024-07-18 214952](https://github.com/user-attachments/assets/1c536f89-ccc7-476a-9f8c-8e7415303a67)# WIP
+# WIP
 
 # Customer Page
 This menu primarily involves the customer. Customers can press the "Shop" button on our homepage and then select "Our Products" to browse through the items we sell. On the shopping page, there's a search bar that customers can use to find specific products they desire. In the shopping cart menu, customers simply choose their payment method and then enter the required information according to the selected payment method. They just need to provide their name, email, phone number, and complete shipping address.
