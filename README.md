@@ -17,6 +17,7 @@ This menu primarily involves the customer. Customers can press the "Shop" button
 - with this bar you can jump into your desired part
 ![Screenshot 2024-07-18 214952](https://github.com/user-attachments/assets/dea434c0-d236-4137-bc1b-ec1eaf53dec8)
 - when the customer clicked on the "The Gojira", the customer will be showed with multiple choices of car that we sell the tuning part
+  
 ![Screenshot 2024-07-18 215211](https://github.com/user-attachments/assets/ffeb987b-9906-4314-b5ca-5acf77bfdb3c)
 
 ## about page
