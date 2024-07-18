@@ -32,7 +32,10 @@
 
 ### Installation
 
-1. Download the sql connector, gson, than the folder 
+1. Download the sql connector, gson, than the project folder 
+
+- Import the file located in `Gojira-Tuners/gson-2.8.6.jar`
+- Import the file located in `Gojira-Tuners/mysql-connector-j-8.0.33.jar`
 
 2. Navigate to  open project in netbeans and locate the folder
 
