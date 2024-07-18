@@ -54,7 +54,7 @@
 
 3. Set up the database:
 
-    - Import the SQL file located in `database/gojiratuners.sql` into your SQL database.
+    - Import the SQL file located in `Gojira-Tuners/web_tuning (3).sql` into your SQL database.
 
 4. Start the web server and navigate to the project URL in your browser.
 
