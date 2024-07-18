@@ -148,7 +148,7 @@ const addCartToHTML = () => {
     iconCartSpan.innerText = totalQuantity;
 
     // Update tampilan total harga di dalam div 'totalPrice'
-    document.getElementById('totalPrice').innerText = `Rp. ${totalPrice}`;
+    document.getElementById('totalPrice').innerText = Rp. ${totalPrice};
 };
 
 // Event listener untuk menangani klik tombol '+' atau '-'
@@ -216,7 +216,51 @@ const initApp = () => {
         .catch(error => console.error('Error fetching products:', error));
 };
 
-//payment
+// Event listener for form inputs to enable/disable the checkout button
+document.getElementById('checkoutForm').addEventListener('input', validateForm);
+
+// Function to validate the form and enable/disable the checkout button
+function validateForm() {
+    const checkoutButton = document.querySelector('.checkOut');
+    const form = document.getElementById('checkoutForm');
+    const paymentMethod = form.paymentMethod.value;
+    const customerFields = ['name', 'email', 'phone', 'address'];
+
+    let allValid = true;
+
+    // Check customer details fields
+    customerFields.forEach(field => {
+        const input = document.getElementById(field);
+        if (!input.value.trim()) {
+            allValid = false;
+        }
+    });
+
+    // Check payment details fields based on the selected payment method
+    if (paymentMethod === 'e-wallet') {
+        const eWalletFields = ['handphone', 'password'];
+        eWalletFields.forEach(field => {
+            const input = document.getElementById(field);
+            if (!input.value.trim()) {
+                allValid = false;
+            }
+        });
+    } else if (paymentMethod === 'bank') {
+        const bankFields = ['cardNumber', 'expDate'];
+        bankFields.forEach(field => {
+            const input = document.getElementById(field);
+            if (!input.value.trim()) {
+                allValid = false;
+            }
+        });
+    } else {
+        allValid = false;
+    }
+
+    checkoutButton.disabled = !allValid;
+}
+
+// Update payment fields function
 function updatePaymentFields() {
     const paymentMethod = document.getElementById('paymentMethod').value;
     const paymentDetails = document.getElementById('paymentDetails');
@@ -226,27 +270,29 @@ function updatePaymentFields() {
         paymentDetails.innerHTML = `
             <label for="handphone">
                 <span>Handphone</span>
-                <input type="text" name="handphone" id="handphone">
+                <input type="text" name="handphone" id="handphone" required>
             </label>
 
             <label for="password">
                 <span>Password</span>
-                <input type="password" name="password" id="password">
+                <input type="password" name="password" id="password" required>
             </label>
         `;
     } else if (paymentMethod === 'bank') {
         paymentDetails.innerHTML = `
             <label for="cardNumber">
                 <span>Card Number</span>
-                <input type="text" name="cardNumber" id="cardNumber">
+                <input type="text" name="cardNumber" id="cardNumber" required>
             </label>
 
             <label for="expDate">
                 <span>Exp Date</span>
-                <input type="text" name="expDate" id="expDate">
+                <input type="text" name="expDate" id="expDate" required>
             </label>
         `;
     }
+
+    validateForm(); // Re-validate the form whenever payment method changes
 }
 
 // Panggil fungsi initApp untuk memulai aplikasi
@@ -256,7 +302,7 @@ initApp();
 function searchItems() {
     let query = document.getElementById('search-bar').value;
     
-    fetch(`/Pembelian1/search?query=${encodeURIComponent(query)}`)
+    fetch(/Pembelian1/search?query=${encodeURIComponent(query)})
         .then(response => {
             if (!response.ok) {
                 throw new Error('Network response was not ok');
