@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+body {
+    font-family: 'Russo One', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    height: 100vh; /* Full viewport height */
+    flex-direction: column;
+}
+
+.admin-container {
+    display: flex;
+    flex: 1; /* Allow the container to take up remaining space */
+    height: 100%;
+}   
+
+.highlight {
+    color: #c91e1e ;
+    font-weight: bold;
+  }  
+
+.sidebar {
+    background: #0d1015;
+    border-right: #a60000 3px solid;
+    border-bottom: #a60000 3px solid;
+    color: white;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.logo h1 {
+    color: #ededed ;
+    font-size: 24px;
+    text-align: center;
+}
+
+.nav-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+    width: 100%;
+    flex-grow: 1; /* Allow the nav list to grow */
+}
+
+.nav-item {
+    width: 100%;
+}
+
+.nav-item a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: background 0.3s;
+}
+
+.nav-item a:hover, .nav-item.active a {
+    background-color: #e74c3c;
+}
+
+.logout-container {
+    margin-top: auto;
+    text-align: center;
+}
+
+.logout-button {
+    background-color: #fe4545;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+.logout-button:hover {
+    background-color: #d03b3b;
+}
+
+.item-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.item-table th, .item-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.item-table th {
+    background-color: #fe4545;
+    color: white;
+    text-align: left;
+}
+
+.history-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: white;
+}
+
+.history-table th, .history-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left; /* Ensure text alignment */
+    font-family: 'Russo One', sans-serif;
+}
+
+.history-table th {
+    background-color: #0d1015;
+    color: white;
+    text-align: left;
+    font-family: 'Russo One', sans-serif;
+    border: #a60000 3px solid;
+}
+
+/* Additional styles for better table appearance */
+.history-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.history-table tr:hover {
+    background-color: #ddd;
+}
+
+#search {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.main-content {
+    flex-grow: 1;
+    background-color: #ecf0f1;
+    padding: 20px;
+}
+
+.content-header {
+    margin-bottom: 20px;
+}
+
+.content-header h2 {
+    margin: 0;
+    color: #2c3e50;
+}
+
+.content-body {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: calc(100vh - 120px); /* Adjust height as needed */
+    overflow-y: auto; /* Enable vertical scroll */
+}
+
+.item-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+.item-table th, .item-table td {
+    padding: 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.item-table th {
+    background-color: #0d1015;
+    color: white;
+    border: #a60000 3px solid;
+}
+
+.edit {
+    color: green;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.delete {
+    color: red;
+    text-decoration: none;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input[type="text"], input[type="file"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+}
+
+button {
+    padding: 10px;
+    background-color: #0d1015;
+    color: white;   
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background 0.3s;
+    font-family: 'Russo One', sans-serif;
+    border: #a60000 3px solid;
+}
+
+button:hover {
+    background-color: #c0392b;
+}
+
+.content-body button{
+    align-self: center; 
+    width: 50%;
+    height: auto;
+}
+
+/* Custom file upload button */
+#file-upload {
+    display: none;
+}
+
+.custom-file-upload {
+    align-self: center;
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 10px 12px;
+    cursor: pointer;
+    background-color: #313131;
+    color: white;
+    border-radius: 4px;
+    text-align: center;
+    border: #a60000 3px solid;
+    width: 30%;
+}
+
+.custom-file-upload:hover {
+    background-color: #c0392b;
+}

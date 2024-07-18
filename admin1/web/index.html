@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Login</title>
+    <style>
+        body {
+            background: url('image/gtrbgn.jpg');
+            background-size: cover; 
+        }
+    </style>
+</head>
+<body>
+    <div class="section-1 box">
+        <video autoplay loop muted id="video-background">
+        <source src="silvia.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="container">
+        <div class="signup-section">
+            <header>Welcome!!!</header>
+
+            <div class="separator">
+                <div class="line"></div>
+                <p>Silahkan klik login yang ada dibawah</p>
+                <div class="line"></div>
+            </div>
+        </div>
+
+        <div class="login-section">
+            <header>Login</header>
+
+            <form id="login-form" action="LoginServlet" method="post">
+                <input type="email" id="login-email" placeholder="Email address" name="eMail" autocomplete="off">
+                <span class="error" id="login-email-error"></span>
+                <input type="password" id="login-password" placeholder="Password" name="pWord" autocomplete="off">
+                <span class="error" id="login-password-error"></span>
+                <div id="login-captcha-answer"></div>
+                <button type="submit" class="btn">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
