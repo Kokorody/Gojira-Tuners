@@ -40,6 +40,7 @@ This menu primarily involves the customer. Customers can press the "Shop" button
 - Sales website. a place for users to view and select the products they want to order. There is a search feature on this page.
 ![Screenshot 2024-07-18 083405](https://github.com/user-attachments/assets/f6b902da-8a52-4212-993c-e49a699b93cd)
 - Shopping cart (found on the right side of sales website when the cart icon clicked). a place for users to see the products they have chosen, adjust the products they want to order, make payments, and fill in user data.
-![Screenshot 2024-07-17 193232](https://github.com/user-attachments/assets/95f3d40a-26d8-4922-acba-76e787814d22)
+![image](https://github.com/user-attachments/assets/4bc812e9-9c1f-4992-bb50-61718a6a83b0)
+
 
 
