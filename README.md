@@ -27,7 +27,7 @@
 ### Prerequisites
 
 - Web browser (Chrome, Firefox, Safari, etc.)
-- Web server with PHP support (e.g., Apache, Nginx)
+- Web server with PHP support (e.g., Apache, Tomcat)
 - SQL database (e.g., MySQL)
 
 ### Installation
