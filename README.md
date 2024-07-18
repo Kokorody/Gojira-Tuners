@@ -45,11 +45,11 @@
 
 5. install apache tomcat in tools > server > add server then run the server
 
-6. Set up the database:
+6. Start the web server (XAMMP PHP SQL)
+
+7. Set up the database:
 
     - Import the SQL file located in `Gojira-Tuners/web_tuning (3).sql` into your SQL database.
-
-7. Start the web server (XAMMP PHP SQL)
 
 8. clean and build then run the web application
 
