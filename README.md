@@ -22,7 +22,7 @@ This menu primarily involves the customer. Customers can press the "Shop" button
 
 
 ### about page
-- in this part, we tell the customer "what is GojiraTuners" with a short explanation why the Nissan gtr named wtih japan historical fiction monster
+- in this part, we tell the customer "what is GojiraTuners" and with a short explanation why the Nissan gtr named wtih japan historical fiction monster
 ![Screenshot 2024-07-18 083321](https://github.com/user-attachments/assets/29da0a91-a5bd-4ac5-9281-7b1f7ed72e06)
 
 ### brand page
