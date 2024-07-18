@@ -1,6 +1,6 @@
 # Gojira Tuners
 
-![gojira](https://github.com/user-attachments/assets/6c5016db-415b-452e-9d77-3247404ed098)
+![gojira](https://github.com/user-attachments/assets/4b23cae6-8502-4da7-8630-e0a5af8e7a72)
 
 ## Overview
 
@@ -78,39 +78,51 @@ Thank you for visiting Gojira Tuners! We hope you enjoy shopping with us and fin
 # preview main
 
 ### opening scene
-![Screenshot 2024-07-18 175333](https://github.com/user-attachments/assets/a7d1231b-65fa-4eb5-9916-2da8a2f67951)
+![Screenshot 2024-07-18 175333](https://github.com/user-attachments/assets/58c7c113-7168-4970-b1ab-52ebfe31e18a)
+
 
 ### Main page
-![Screenshot 2024-07-18 083306](https://github.com/user-attachments/assets/82861e45-abae-41a7-a37d-4f0bd4433093)
+![Screenshot 2024-07-18 083306](https://github.com/user-attachments/assets/5c6465f2-f829-423f-b9af-1e5cba7f1b73)
+
 
 ### about page
-![Screenshot 2024-07-18 083321](https://github.com/user-attachments/assets/84dee9fb-78a9-4fb4-9a21-4faaf14a0fdf)
+![Screenshot 2024-07-18 083321](https://github.com/user-attachments/assets/f056fdd0-f810-47b2-96f4-70e358fe3243)
+
 
 ### brand page
-![Screenshot 2024-07-18 083326](https://github.com/user-attachments/assets/e66543d5-00c3-4f8e-a998-477eb963a459)
+![Screenshot 2024-07-18 083326](https://github.com/user-attachments/assets/5eedef63-b597-4bdd-bf21-6fadef1d6454)
+
 
 ### TheGojira (car)
-![Screenshot 2024-07-18 083332](https://github.com/user-attachments/assets/2628e41d-45c3-49e1-9316-5822489f83dd)
+![Screenshot 2024-07-18 083332](https://github.com/user-attachments/assets/fc48166d-fbbf-4d09-9963-1e307245c307)
+
 
 ### shop in main
-![Screenshot 2024-07-18 083339](https://github.com/user-attachments/assets/c3799e81-fd91-408a-b441-9f85537b1299)
+![Screenshot 2024-07-18 083339](https://github.com/user-attachments/assets/8ee76edf-ad02-4972-9b00-aa8b641aef31)
+
 
 # preview shop
-![Screenshot 2024-07-18 083405](https://github.com/user-attachments/assets/010cb9a9-e3e4-4022-aae5-bf5a25f85399)
+![Screenshot 2024-07-18 083405](https://github.com/user-attachments/assets/8dca3426-1d62-48dd-9262-29c37e28b9ae)
+
 
 # preview admin
 
 ### login admin
-![Screenshot 2024-07-18 090015](https://github.com/user-attachments/assets/1ccf254b-c3d3-4523-b3b1-5dc61f4d6856)
+![Screenshot 2024-07-18 090015](https://github.com/user-attachments/assets/b7d46137-b323-4f29-8534-2f8b3be6ee3e)
+
 
 ### manage items
-![Screenshot 2024-07-18 090037](https://github.com/user-attachments/assets/310c8f4b-258a-4351-81f8-749d5e6ad602)
+![Screenshot 2024-07-18 090037](https://github.com/user-attachments/assets/e97f5e3c-3a39-4c9b-b851-a3178a36fc82)
+
 
 ### edit item
-![Screenshot 2024-07-18 090058](https://github.com/user-attachments/assets/ce6793a4-3926-4c82-9f01-5df90659cabd)
+![Screenshot 2024-07-18 090058](https://github.com/user-attachments/assets/e28458ec-1af8-4050-b3d1-e6e4ff751f1c)
+
 
 ### add item
-![Screenshot 2024-07-18 090103](https://github.com/user-attachments/assets/d35477c7-b34e-4ff1-bbee-eef9a1a390b0)
+![Screenshot 2024-07-18 090103](https://github.com/user-attachments/assets/227b391d-6716-464b-bb76-3da2a9911d1c)
+
 
 ### purchase history
-![Screenshot 2024-07-18 090107](https://github.com/user-attachments/assets/c3433ffe-1d14-4a95-97fc-7eccb557a3e3)
+![Screenshot 2024-07-18 090107](https://github.com/user-attachments/assets/35dbaa45-bc04-4dd7-af95-663de2827052)
+
