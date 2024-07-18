@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GojiraTuners | Cart Shop</title>
+    <link rel="icon" type="image/png" href="gojira.png">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background: url('images/gtrbgn.jpg') no-repeat center center fixed;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body class="">
+
+    <div class="container">
+        <header>
+            <div class="header-container">
+            <div class="logo">
+                <img src="images/gojira.png" alt="Gojira Tuners Logo">
+                <h1><span class="highlight">Gojira</span> Tuners</h1>
+            </div>
+            <div class="search-container">
+                <input type="text" id="search-bar" placeholder="Item name..." onkeyup="searchItems()">
+            </div>
+            <div class="icon-cart">
+                <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 20">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0h8m-8 0-1-4m9 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-9-4h10l2-7H3m2 7L3 4m0 0-.792-3H1"/>
+                </svg>
+                <span>0</span>
+            </div>
+        </header>
+        <section class="hero">
+        <div class="hero-content">
+            <h1><span class="highlight">Special Edition</span> Is here! <h1> <hr>
+            <h2>grab the limited Edition exhaust that
+            exclusive For Nissan GT-R R35 now!!!</h2>
+            <h3>Special Edition HKS SUPERIOR spec-R Exhaust</h3>
+        </div>
+        <img src="images/exhaust.png" alt="Car Image">
+        </section>
+        
+        <div class="listProduct">
+             <!-- Items will be displayed here -->
+        </div>
+    </div>
+    
+    <div class="cartTab">
+       <h1>Shopping Cart</h1>
+       <div class="listCart">
+           <!-- Items will be dynamically added here -->
+       </div>
+       
+       <hr class="separator">
+       
+       <div class="form-container">
+           <div id="totalAmount">
+               <h5>Total Amount</h5>
+               <div id="totalPrice">Rp. 0</div>
+               <br>
+           </div>
+
+           <form action="/Pembelian1/checkout1" id="checkoutForm" method="post">
+               <h5>Payment Method</h5>
+
+               <label for="paymentMethod">
+                   <span>Method</span>
+                   <select name="paymentMethod" id="paymentMethod" onchange="updatePaymentFields()">
+                       <option value="">Select a payment method</option>
+                       <option value="e-wallet">E-Wallet A</option>
+                       <option value="bank">Bank A</option>
+                   </select>
+               </label>
+
+               <div id="paymentDetails">
+                   <!-- Payment method specific fields will be inserted here -->
+               </div>
+                <br>
+                
+               <h5>Customer Detail</h5>
+              
+               <label for="name">
+                   <span>Name</span>
+                   <input type="text" name="name" id="name">
+               </label>
+
+               <label for="email">
+                   <span>Email</span>
+                   <input type="email" name="email" id="email">
+               </label>
+
+               <label for="phone">
+                   <span>Phone</span>
+                   <input type="number" name="phone" id="phone" autocomplete="off">
+               </label>
+
+               <label for="address">
+                   <span>Address</span>
+                   <input type="text" name="address" id="address" autocomplete="off">
+               </label>
+           </form>
+       </div>
+       <br>
+       <br>
+       <br>
+       <br>
+
+       <div class="btn">
+           <button class="close">CLOSE</button>
+           <button class="checkOut">Check Out</button>
+       </div>
+    </div>
+
+            
+    <footer>
+        <div class="socials">
+            <a href="#"><i data-feather="instagram"></i></a>
+            <a href="#"><i data-feather="twitter"></i></a>
+        </div>
+        <div class="links">
+            <a href="#">Home</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <div class="credit">
+            &copy; 2024 GojiraTuners All rights reserved. <a href="#">Privacy Policy</a>
+        </div>
+    </footer>    
+
+    <script src="app.js"></script>
+</body>
+</html>

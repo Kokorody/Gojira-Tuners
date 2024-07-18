@@ -1,0 +1,4 @@
+Controller.AddItemServlet=javax.servlet.annotation.MultipartConfig
+Controller.DeleteAdminServlet=javax.servlet.annotation.WebServlet
+Controller.SearchHistoryServlet=javax.servlet.annotation.WebServlet
+Controller.UpdateAdminServlet=javax.servlet.annotation.WebServlet,javax.servlet.annotation.MultipartConfig

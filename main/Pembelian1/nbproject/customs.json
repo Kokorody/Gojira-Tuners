@@ -1,0 +1,10 @@
+{
+    "elements": {
+        "br": {}
+    },
+    "attributes": {
+        "alt": {
+            "context": "video"
+        }
+    }
+}

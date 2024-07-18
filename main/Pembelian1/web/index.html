@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="smart parking system">
+    <meta name="keywords" content="smart, parking management,iot, smart parking system">
+    <title>GojiraTuners | Welcome</title>
+    <link rel="icon" type="image/png" href="images/logo/gojira.png">
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <!-- feather icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        section {
+            transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+        }
+
+        .reveal {
+            opacity: 0;
+            transform: translateY(50px);
+        }
+
+        .reveal.active {
+            opacity: 1;
+            transform: translateY(0);
+        } 
+    </style>
+</head>
+<body>
+    <div id="opening-scene" class="opening-scene">
+        <img src="images/logo/gojira.png" alt="gojira" class="logo">
+    </div>
+
+    <div id="main-content" class="main-content">
+        <header>
+            <div class="container">
+                <div id="branding">
+                    <img src="images/logo/gojira.png" alt="ParkEase logo">    
+                    <h1><span class="highlight">Gojira</span>Tuners</h1>
+                </div>
+                <nav>
+                    <ul>
+                        <li class="current"><a href="#">Home</a></li>
+                        <li><a href="#About">About</a></li>
+                        <li><a href="#Brands">Brand</a></li>
+                        <li class="gojira-dropdown">
+                            <a href="#">The <span class="highlight">Gojira</span></a>
+                            <ul class="gojira-dropdown-menu">
+                                <li><a href="#R32">Skyline GT-R <span class="highlight">R32</span></a></li>
+                                <br>
+                                <li><a href="#R33">Skyline GT-R <span class="highlight">R33</span></a></li>
+                                <br>
+                                <li><a href="#R34">Skyline GT-R <span class="highlight">R34</span></a></li>
+                                <br>
+                                <li><a href="#R35">GT-R <span class="highlight">R35</span></a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#shop">Shop!</a></li>
+                    </ul>
+                    <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+                </nav>
+            </div>
+        </header>
+    </div>
+
+        <div class="section-1 box">
+            <h1>Welcome to <span class="highlight">Gojira</span>Tuners</h1>
+            <img src="images/logo/gojira.png">
+            <video autoplay loop muted id="video-background" alt="Gojira">
+                <source src="images/GTR.mp4" type="video/mp4">
+            </video>
+        </div>
+    
+        <section id="About">
+            <section class="reveal">
+                <p>.<p>
+                <p>.<p>    
+                <div class="section-2 box">
+                    <img src="images/car/r32potrait.jpg" id="potrait">
+                    <h1>About</h1>
+                    <hr>
+                    <div id="boxes">
+                        <div class="container">
+                            <div class="part">
+                                <h3>What is <span class="highlight">Gojira</span>Tuners?</h3>
+                                <hr>
+                                <p><span class="highlight">Gojira</span>Tuners is an online tuning shop that focuses on selling things to
+                                    make your GTR aka "<span class="highlight">Gojira</span>" stronger to defeat other monster cars!
+                                    <br>
+                                    Nissan GTR is widely known as <span class="highlight">Godzilla</span> or <span class="highlight">Gojira</span>, originating in the Australian media as a nod to the fictional
+                                    Japanese movie monster that destroyed everything in its path, but also forced the Australian Touring Car Championship
+                                    to ditch the global Group A regulations.
+                                </p>
+                                <div class="logos">
+                                    <img src="images/logo/logo_combo.png" alt="Nissan, GT-R, Nismo Logos">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section> 
+    
+        <section id="Brands" class="reveal">
+            <div class="section-3 box">
+                <div class="pricing-section">
+                        <div class="pricing-table">
+                            <div class="pricing-option free">
+                                <h2>Our Associated Brands</h2>
+                                <div class="slideshow-container brands-slideshow">
+                                    <div class="mySlides fade">
+                                        <img src="images/logo/bbs.png">                                  
+                                    </div>
+                                    <div class="mySlides fade">
+                                        <img src="images/logo/brembo-logo.png">                                    
+                                    </div>
+                                    <div class="mySlides fade">
+                                        <img src="images/logo/hks.png">                                 
+                                    </div>
+                                    <div class="mySlides fade">
+                                        <img src="images/logo/michelinlogo.png">                           
+                                    </div>
+        
+                                    <!-- Next and previous buttons -->
+                                    <a class="prev" onclick="plusSlides(-1, 'brands')">&#10094;</a>
+                                    <a class="next" onclick="plusSlides(1, 'brands')">&#10095;</a>
+                                </div>
+                                <div style="text-align:center">
+                                    <span class="dot" onclick="currentSlide(1, 'brands')"></span>
+                                    <span class="dot" onclick="currentSlide(2, 'brands')"></span>
+                                    <span class="dot" onclick="currentSlide(3, 'brands')"></span>
+                                    <span class="dot" onclick="currentSlide(4, 'brands')"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </section>
+    
+    <section id="R32">
+        <section class="reveal">
+            <p>.<p>
+            <p>.<p> 
+        <section class="spaceslide">
+            <h2>Nissan Skyline GT-R R32</h2>
+            <div class="slideshow-container r32-slideshow">
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 5</div>
+                    <img src="images/car/r32/r32side.png" style="width:75%">
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 5</div>
+                    <img src="images/car/r32/r32front.png" style="width:47%">
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 5</div>
+                    <img src="images/car/r32/r32back.png" style="width:45%">
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">4 / 5</div>
+                    <img src="images/car/r32/r32nismo.png" style="width:70%">
+                    <br>
+                    <div class="text">Nissan Skyline GT-R R32 V-SPEC II Nismo</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">5 / 5</div>
+                    <img src="images/car/r32/iconicr32.png" style="width:55%">
+                    <br>
+                    <div class="text">Group A 1990 Calsonic Nissan Skyline GT-R R32</div>
+                </div>
+                <a class="prev" onclick="plusSlides(-1, 'r32')">&#10094;</a>
+                <a class="next" onclick="plusSlides(1, 'r32')">&#10095;</a>
+            </div>
+            <br>
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1, 'r32')"></span>
+                <span class="dot" onclick="currentSlide(2, 'r32')"></span>
+                <span class="dot" onclick="currentSlide(3, 'r32')"></span>
+                <span class="dot" onclick="currentSlide(4, 'r32')"></span>
+                <span class="dot" onclick="currentSlide(5, 'r32')"></span>
+            </div>
+            <div class="stats">
+                <p><strong><span class="highlight">Nissan Skyline GT-R R32</span> (1989-1994)</strong></p>
+                <ul>
+                    <li>Engine: 2.6L RB26DETT twin-turbo inline-6</li>
+                    <li>Horsepower: 276 hp (206 kW)</li>
+                    <li>Torque: 271 lb-ft (367 Nm)</li>
+                    <li>Length: 4,545 mm (179.1 in)</li>
+                    <li>Width: 1,755 mm (69.1 in)</li>
+                    <li>Height: 1,340 mm (52.8 in)</li>
+                    <li>Wheelbase: 2,615 mm (102.9 in)</li>
+                    <li>Curb Weight: 1,430 kg (3,153 lbs)</li>
+                </ul>
+            </div>
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/nMmFs9bLL8I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </section>
+        </section>
+    </section>
+    
+    <section id="R33">
+        <section class="reveal">
+            <p>.<p>
+            <p>.<p> 
+        <section class="spaceslide">
+            <h2>Nissan Skyline GT-R R33</h2>
+            <div class="slideshow-container r33-slideshow">
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 5</div>
+                    <img src="images/car/r33/r33side.png" style="width:70%">
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 5</div>
+                    <img src="images/car/r33/r33front.png" style="width:60%">
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 5</div>
+                    <img src="images/car/r33/r33back.png" style="width:60%">
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">4 / 5</div>
+                    <img src="images/car/r33/r33nismo.png" style="width:65%">
+                    <br>
+                    <div class="text">Nissan Skyline GT-R R33 400R Nismo</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">5 / 5</div>
+                    <img src="images/car/r33/iconicr33.png" style="width:65%">
+                    <br>
+                    <div class="text">Leon's yellow R33 Nissan Skyline GT-R(FF)</div>
+                </div>
+                <a class="prev" onclick="plusSlides(-1, 'r33')">&#10094;</a>
+                <a class="next" onclick="plusSlides(1, 'r33')">&#10095;</a>
+            </div>
+            <br>
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1, 'r33')"></span>
+                <span class="dot" onclick="currentSlide(2, 'r33')"></span>
+                <span class="dot" onclick="currentSlide(3, 'r33')"></span>
+                <span class="dot" onclick="currentSlide(4, 'r33')"></span>
+                <span class="dot" onclick="currentSlide(5, 'r33')"></span>
+            </div>
+            <div class="stats">
+                <p><strong><span class="highlight">Nissan Skyline GT-R R33</span> (1995-1998)</strong></p>
+                <ul>
+                    <li>Engine: 2.6L RB26DETT twin-turbo inline-6</li>
+                    <li>Horsepower: 276 hp (206 kW)</li>
+                    <li>Torque: 271 lb-ft (367 Nm)</li>
+                    <li>Length: 4,675 mm (184.1 in)</li>
+                    <li>Width: 1,780 mm (70.1 in)</li>
+                    <li>Height: 1,360 mm (53.5 in)</li>
+                    <li>Wheelbase: 2,720 mm (107.1 in)</li>
+                    <li>Curb Weight: 1,540 kg (3,395 lbs)</li>
+                </ul>        
+            </div>
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/uaonwyBIGSE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </section>
+        </section>
+    </section>    
+    
+    <section id="R34">
+        <section class="reveal">
+            <p>.<p>
+            <p>.<p> 
+        <section class="spaceslide">
+            <h2>Nissan Skyline GT-R R34</h2>
+            <div class="slideshow-container r34-slideshow">
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 5</div>
+                    <img src="images/car/r34/r34side.png" style="width:70%">
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 5</div>
+                    <img src="images/car/r34/r34front.png" style="width:50%">
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 5</div>
+                    <img src="images/car/r34/r34back.png" style="width:50%">
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">4 / 5</div>
+                    <img src="images/car/r34/r34nismo.png" style="width:70%">
+                    <br>
+                    <div class="text">Nissan Skyline GT-R R34 Z-Tune Nismo</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">5 / 5</div>
+                    <img src="images/car/r34/iconicr34.png" style="width:60%">
+                    <br>
+                    <div class="text">Brian's Nissan Skyline GT-R R34(FF)</div>
+                </div>
+                <a class="prev" onclick="plusSlides(-1, 'r34')">&#10094;</a>
+                <a class="next" onclick="plusSlides(1, 'r34')">&#10095;</a>
+            </div>
+            <br>
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1, 'r34')"></span>
+                <span class="dot" onclick="currentSlide(2, 'r34')"></span>
+                <span class="dot" onclick="currentSlide(3, 'r34')"></span>
+                <span class="dot" onclick="currentSlide(4, 'r34')"></span>
+                <span class="dot" onclick="currentSlide(5, 'r34')"></span>
+            </div>
+            <div class="stats">
+                <p><strong><span class="highlight">Nissan Skyline GT-R R34</span> (1999-2002)</strong></p>
+                <ul>
+                    <li>Engine: 2.6L RB26DETT twin-turbo inline-6</li>
+                    <li>Horsepower: 276 hp (206 kW)</li>
+                    <li>Torque: 293 lb-ft (397 Nm)</li>
+                    <li>Length: 4,600 mm (181.1 in)</li>
+                    <li>Width: 1,785 mm (70.3 in)</li>
+                    <li>Height: 1,360 mm (53.5 in)</li>
+                    <li>Wheelbase: 2,665 mm (104.9 in)</li>
+                    <li>Curb Weight: 1,560 kg (3,439 lbs)</li>
+                </ul>
+            </div>
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/SJPWkdduwEc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </section>
+        </section>
+    </section>
+    
+    <section id="R35">
+        <section class="reveal">
+            <p>.<p>
+            <p>.<p> 
+        <section class="spaceslide">
+            <h2>Nissan GT-R R35</h2>
+            <div class="slideshow-container r35-slideshow">
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 5</div>
+                    <img src="images/car/r35/r35side.png" style="width:75%">
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 5</div>
+                    <img src="images/car/r35/r35front.png" style="width:50%">
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 5</div>
+                    <img src="images/car/r35/r35back.png" style="width:50%">
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">4 / 5</div>
+                    <img src="images/car/r35/r35nismo.png" style="width:75%">
+                    <br>
+                    <div class="text">Nissan Skyline GT-R R35 Nismo</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">5 / 5</div>
+                    <img src="images/car/r35/iconicr35.png" style="width:75%">
+                    <br>
+                    <div class="text">Nissan GT-R R35 LM Nismo "Gran Turismo"</div>
+                </div>
+                <a class="prev" onclick="plusSlides(-1, 'r35')">&#10094;</a>
+                <a class="next" onclick="plusSlides(1, 'r35')">&#10095;</a>
+            </div>
+            <br>
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1, 'r35')"></span>
+                <span class="dot" onclick="currentSlide(2, 'r35')"></span>
+                <span class="dot" onclick="currentSlide(3, 'r35')"></span>
+                <span class="dot" onclick="currentSlide(4, 'r35')"></span>
+                <span class="dot" onclick="currentSlide(5, 'r35')"></span>
+            </div>
+            <div class="stats">
+                <p><strong><span class="highlight">Nissan GT-R R35</span> (2007-present)</strong></p>
+                <ul>
+                    <li>Engine: 3.8L VR38DETT twin-turbo V6</li>
+                    <li>Horsepower: 480 hp (358 kW)</li>
+                    <li>Torque: 430 lb-ft (583 Nm)</li>
+                    <li>Length: 4,710 mm (185.4 in)</li>
+                    <li>Width: 1,895 mm (74.6 in)</li>
+                    <li>Height: 1,370 mm (53.9 in)</li>
+                    <li>Wheelbase: 2,780 mm (109.4 in)</li>
+                    <li>Curb Weight: 1,730 kg (3,815 lbs)</li>
+                </ul>
+            </div>
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Jvr0U2ZInoE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </section>
+        </section>
+    </section>
+        
+        <section id="shop">
+            <div class="section-4 box">
+                <video autoplay loop muted id="r32shop">
+                    <source src="images/shop.mp4" type="video/mp4">
+                </video>  
+                <div class="shop">
+                    <h1>Tune Your <span class="highlight">Gojira</span> Now!!!</h1>
+                    <a href="cart.html" target="blank">
+                        <button>Our Product  ></button>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="socials">
+                <a href="#"><i data-feather="instagram"></i></a>
+                <a href="#"><i data-feather="twitter"></i></a>
+            </div>
+            <div class="links">
+                <a href="#">Home</a>
+                <a href="#boxes">Features</a>
+                <a href="#menu">Menu</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="credit">
+                &copy; 2024 GojiraTuners All rights reserved. <a href="#">Privacy Policy</a>
+            </div>
+        </footer>
+    </div>
+
+    <script src="JS/scripts.js"></script>
+
+    <!-- feather icons -->
+    <script>
+        feather.replace()
+    </script>
+    
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const reveals = document.querySelectorAll(".reveal");
+
+            function reveal() {
+                for (let i = 0; i < reveals.length; i++) {
+                    const windowHeight = window.innerHeight;
+                    const elementTop = reveals[i].getBoundingClientRect().top;
+                    const elementVisible = 150;
+
+                    if (elementTop < windowHeight - elementVisible) {
+                        reveals[i].classList.add("active");
+                    } else {
+                        reveals[i].classList.remove("active");
+                    }
+                }
+            }
+
+            window.addEventListener("scroll", reveal);
+
+            // To check the scroll position on page load
+            reveal();
+        });
+    </script>
+
+    <script>
+        $(document).ready(function() {
+            function checkWindowSize() {
+                if ($(window).width() <= 768) {
+                    $('#section-1-h2').hide();
+                    $('#features .part p').hide();
+                } else {
+                    $('#section-1-h2').show();
+                    $('#features .part p').show();
+                }
+            }
+
+            // Initial check
+            checkWindowSize();
+
+            // Check on window resize
+            $(window).resize(checkWindowSize);
+
+            $('.toggle-btn').on('click', function() {
+                $(this).next('p').slideToggle();
+            });
+        });
+    </script>
+
+    <script>
+        window.addEventListener('load', () => {
+            const openingScene = document.getElementById('opening-scene');
+            const mainContent = document.getElementById('main-content');
+            const logo = document.querySelector('.logo');
+
+            setTimeout(() => {
+                logo.classList.add('fade-in');
+            }, 1000);
+
+            setTimeout(() => {
+                openingScene.classList.add('fade-out');
+                mainContent.classList.add('visible');
+            }, 3000);
+        });
+    </script>
+</body>
+</html>
