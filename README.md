@@ -32,14 +32,24 @@
 
 ### Installation
 
+1. Download the sql connector, gson, than the folder 
 
-1. Download the zip
+2. Navigate to  open project in netbeans and locate the folder
 
-2. Navigate to  new project in netbeans
+3. select a file/folder that have netbean web application icon (or create a new project)
 
-3. 
+4. resolve the project problem by providing the required file
 
-### alternate
+5. install apache tomcat in tools > server > add server then run the server
+
+6. Set up the database:
+
+    - Import the SQL file located in `Gojira-Tuners/web_tuning (3).sql` into your SQL database.
+
+7. Start the web server (XAMMP PHP SQL)
+
+### Cloning
+
 1. Clone the repository:
 
     ```bash
@@ -51,12 +61,6 @@
     ```bash
     cd Gojira-Tuners
     ```
-
-3. Set up the database:
-
-    - Import the SQL file located in `Gojira-Tuners/web_tuning (3).sql` into your SQL database.
-
-4. Start the web server and navigate to the project URL in your browser.
 
 ### Usage
 
