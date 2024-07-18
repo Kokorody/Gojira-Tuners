@@ -1,5 +1,11 @@
 # WIP
 
+# Admin
+1. Add item: Admin can input items for sale by uploading an image, entering the product name, a brief description, price, and available stock.
+2. Update item: Admin can update items for sale by changing the image if necessary, updating the product name, brief description, price, and available stock.
+3. Delete item: Admin can delete products that are no longer for sale or have run out of stock and will not be restocked.
+4. History transaction: Admin can view a list of transactions that have occurred.
+
 
 # preview admin
 
