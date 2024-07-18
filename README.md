@@ -43,13 +43,13 @@
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/Kokorody/GojiraTuners-online-tuning-shop.git
+    git clone https://github.com/Kokorody/Gojira-Tuners.git
     ```
 
 2. Navigate to the project directory:
 
     ```bash
-    cd GojiraTuners-online-tuning-shop
+    cd Gojira-Tuners
     ```
 
 3. Set up the database:
