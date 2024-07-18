@@ -48,6 +48,8 @@
 
 7. Start the web server (XAMMP PHP SQL)
 
+8. clean and build then run the web application
+
 ### Cloning
 
 1. Clone the repository:
