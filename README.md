@@ -67,7 +67,7 @@
     cd Gojira-Tuners
     ```
 
-### Usage
+### Function
 
 - Browse through the various categories to find the car parts you need.
 - Use the search bar to quickly locate specific items.
